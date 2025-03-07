@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+.slide-in-right{-webkit-animation:slide-in-right 1.5s cubic-bezier(.25,.46,.45,.94) 1s both;animation:slide-in-right 1.5s cubic-bezier(.25,.46,.45,.94) 1s both;
+animation-delay: 0s;}
+
+ @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+.slide-in-left{-webkit-animation:slide-in-left 1.5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left 1.5s cubic-bezier(.25,.46,.45,.94) both}
+
+ @-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+ .focus-in-expand{-webkit-animation:focus-in-expand 3s cubic-bezier(.25,.46,.45,.94) both;animation:focus-in-expand 3s cubic-bezier(.25,.46,.45,.94) both}
+
+ @-webkit-keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+ .shake-bottom{-webkit-animation:shake-bottom 1s cubic-bezier(.455,.03,.515,.955) both;animation:shake-bottom 1s cubic-bezier(.455,.03,.515,.955) both}
+
+ @-webkit-keyframes shake-bottom{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}@keyframes shake-bottom{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}
+
+ .swing-in-top-fwd{-webkit-animation:swing-in-top-fwd 2s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-fwd 2s cubic-bezier(.175,.885,.32,1.275) both}
+
+@-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto";
+    scroll-behavior:smooth ;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: -webkit-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+}
+
+.logo_header {
+    margin: 0 10px;
+}
+
+.list__header ul{
+    display: flex;
+    margin: 15px;
+    
+}
+.list__header li {
+    padding: 20px;
+    list-style: none;
+    color: rgba(8, 8, 8, 0.842);
+    
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list__header a {
+    text-decoration: none;
+    color: rgba(8, 8, 8, 0.842);
+}
+
+/*
+main
+*/
+main {
+    height: auto;
+}
+
+.info__main{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutUs__main {
+    position: relative;
+    width: 550px;
+    height: 500px;
+    margin-top: 55px;
+    background: -webkit-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    border-radius: 20px;
+    opacity: 0;
+    
+    
+    
+}
+
+.aboutUs__main:hover{}
+
+
+.aboutUs__main h1 {
+    width: 300px;
+    font-size: 50px;
+    top: 0;
+    padding: 20px;
+    
+}
+.aboutUs__main p {
+    width: 400px;
+    font-size: 30px;
+    padding: 20px;
+    opacity: 0;
+}
+
+
+
+.pictures__main {
+    width: 550px;
+    height: 500px;
+    margin-top: 55px;
+    background: -webkit-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    border-radius: 20px;
+    opacity: 0;
+}
+.pictures__main:hover > img {
+    width: 500px;
+    transition: width 0.5s ease;
+}
+
+
+
+.pictures__main img {
+    width: 450px;
+    transition: width 0.5s ease;
+    margin: 20px;
+}
+.moreInfo {
+    position: relative;
+}
+.moreInfoButton{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    transition: all 1s ease;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    left: 360px;
+
+   
+    
+}
+.moreInfoButton:hover{
+    font-size: 32px;
+transition: all 1s ease;
+
+}
+
+
+.exampleWorks{
+    
+    position: relative;
+    top: 200px;
+    left: 100px;
+    background: -webkit-linear-gradient(90deg, rgba(222, 194, 242, 0.651) 35%, rgb(168, 183, 238) 64%);
+    background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    width: 1000px;
+    height: 650px;
+    border-radius: 20px;
+    margin-bottom: 400px;
+}
+.removeBGBlock {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 700px;
+    height: 400px;
+    background-image: url(/backgroundoffice.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);    
+}
+
+.girlWithoutBg {
+    padding-left: 150px;
+}
+
+.changeColor{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    width: 30px;
+    height: 30px;
+    
+}
+.buttonChangeColor{
+    position: absolute;
+    top: 570px;
+    left: 150px;
+    width: 190px;
+    height: 50px;
+    color: rgba(8, 8, 8, 0.842);
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonRemoveBg {
+    position: absolute;
+    top: 570px;
+    left: 370px;
+    width: 190px;
+    height: 50px;
+    color: rgba(8, 8, 8, 0.842);
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+
+}
+.buttonChangebgFile{
+    position: absolute;
+    top: 570px;
+    left: 595px;
+    width: 190px;
+    height: 50px;
+    color: rgba(8, 8, 8, 0.842);
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;  
+}
+
+.uploadFile {
+    display: none;
+}
+
+/*
+footer
+*/
+.instal_footer {
+    position: fixed;
+    top: 90%;
+    left: 800px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    
+    color: rgba(8, 8, 8, 0.842);
+    background: -webkit-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);    border: none;
+
+}
+
