@@ -51,7 +51,7 @@ moreInfoButton.addEventListener('click', ()=> {
 
     const girlWithoutBg = document.createElement('img')
     girlWithoutBg.className = 'girlWithoutBg'
-    girlWithoutBg.src = '/aigirl.webp'
+    girlWithoutBg.src = 'aigirl.webp'
 
 
     const changeColor = document.createElement('input')
@@ -79,7 +79,7 @@ moreInfoButton.addEventListener('click', ()=> {
     buttonRemoveBg.className = 'buttonRemoveBg'
     buttonRemoveBg.textContent = 'Remove background'
     buttonRemoveBg.addEventListener('click', () => {
-        removeBGBlock.style.backgroundImage = 'url(/bg-img.jpg)'
+        removeBGBlock.style.backgroundImage = 'url(bg-img.jpg)'
     })
 
     const buttonChangebgFile  = document.createElement('button')
