@@ -185,7 +185,7 @@ transition: all 1s ease;
     left: 150px;
     width: 700px;
     height: 400px;
-    background-image: url(/backgroundoffice.jpg);
+    background-image: url(backgroundoffice.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 20px;
