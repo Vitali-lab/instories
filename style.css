@@ -344,6 +344,10 @@ footer
         background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);    border: none;
     
     }
+ .pictures__main:hover > img {
+    
+    transition: width 0.5s ease;
+}
 
 .exampleWorks{
     
