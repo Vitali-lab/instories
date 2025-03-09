@@ -269,3 +269,170 @@ footer
 
 }
 
+@media screen and (max-width: 430px) {
+
+    
+    .wrapper{
+        max-width: 430px;
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 430px;
+    }
+    .list__header{
+        opacity: 0;
+    }
+    .info__main{
+        width: 430px;
+        display: grid;
+        grid-template-rows: 430px ,430px;
+        justify-content: center;
+    }
+    .aboutUs__main{
+        width: 400px;
+        height: 330px;
+        margin-top: 30px;
+    }
+    .aboutUs__main p {
+        width: 350px;
+        font-size: 25px;
+    }
+    .pictures__main{
+        width: 400px;
+        height: 330px;
+        margin-top: 30px;
+
+    }
+    .pictures__main img{
+        width: 330px;
+    }
+    .moreInfo{
+        width: 430px;
+        font-family: 20px;
+        margin-bottom: 50px;
+    }
+    .moreInfoButton {
+            position: absolute;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            transition: all 1s ease;
+            cursor: pointer;
+            border-radius: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+            width: 300px;
+            left: calc(50% - 150px);
+            
+    }
+    .instal_footer {
+        position: fixed;
+        top: 95%;
+        left: calc(50% - 125px);
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        color: rgba(8, 8, 8, 0.842);
+        background: -webkit-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+        background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+        background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);    border: none;
+    
+    }
+
+.exampleWorks{
+    
+    position: relative;
+    top: 100px;
+    left: 0px;
+    background: -webkit-linear-gradient(90deg, rgba(222, 194, 242, 0.651) 35%, rgb(168, 183, 238) 64%);
+    background: -moz-linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    background: linear-gradient(90deg, rgb(222, 194, 242) 35%, rgb(168, 183, 238) 64%);
+    width: 425px;
+    height: 650px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+
+    .exampleWorks-logoImg{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    
+    .removeBGBlock {
+        position: absolute;
+        top: 70px;
+        left: 3px;
+        width: 420px;
+        height: 400px;
+        background-image: url(/backgroundoffice.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);    
+    }
+    
+    .girlWithoutBg {
+        padding-left: 10px;
+    }
+    
+    .changeColor{
+        position: absolute;
+        top: 500px;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        
+    }
+    .buttonChangeColor{
+        position: absolute;
+        top: 570px;
+        left: 10px;
+        width: 130px;
+        height: 50px;
+        color: rgba(8, 8, 8, 0.842);
+        border-radius: 15px;
+        font-size: 10px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .buttonRemoveBg {
+        position: absolute;
+        top: 570px;
+        left: calc(430px - 140px);
+        width: 130px;
+        height: 50px;
+        color: rgba(8, 8, 8, 0.842);
+        border-radius: 15px;
+        font-size: 10px;
+        cursor: pointer;
+        border: none;
+    
+    }
+    .buttonChangebgFile{
+        position: absolute;
+        top: 570px;
+        left: 150px;
+        width: 130px;
+        height: 50px;
+        color: rgba(8, 8, 8, 0.842);
+        border-radius: 15px;
+        font-size: 10px;
+        cursor: pointer;
+        border: none;  
+    }
+
+    
+  }  
+
+
