@@ -10,9 +10,9 @@ setTimeout(() => {
 
 },500)
 
-blockMain1.addEventListener('animationend', ()=> {
-    infoText.classList.add('focus-in-expand')
-})
+// blockMain1.addEventListener('animationend', ()=> {
+//     infoText.classList.add('focus-in-expand')
+// })
 
 setInterval(()=>{
 
@@ -24,7 +24,7 @@ setInterval(()=>{
 },5000)   
 
 
-infoText.addEventListener('animationend', () => {
+blockMain2.addEventListener('animationend', () => {
 const moreInfo = document.createElement('div')
 moreInfo.className = 'moreInfo'
 
