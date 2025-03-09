@@ -112,7 +112,7 @@ main {
     width: 400px;
     font-size: 30px;
     padding: 20px;
-    opacity: 0;
+    opacity: 1;
 }
 
 
@@ -327,6 +327,7 @@ footer
             color: black;
             width: 300px;
             left: calc(50% - 150px);
+            padding-bottom: 80px;
             
     }
     .instal_footer {
